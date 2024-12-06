@@ -1,0 +1,76 @@
+.admin-auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.admin-auth-box {
+  background-color: #ffffff; /* Clean white background for contrast */
+  padding: 30px;
+  border-radius: 12px; /* Slightly rounder corners for a modern look */
+  box-shadow: 0 4px 10px rgba(0, 128, 0, 0.2); /* Subtle green shadow */
+  max-width: 400px;
+  width: 100%;
+}
+
+.admin-auth-box h2 {
+  text-align: center;
+  font-size: 26px; /* Slightly larger font */
+  margin-bottom: 20px;
+  color: #2e7d32; /* Deep green for trust and health */
+  font-family: 'Poppins', sans-serif; /* Clean, modern font */
+}
+
+.admin-auth-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-auth-box input {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #c8e6c9; /* Light green border */
+  border-radius: 6px; /* Slightly rounder input fields */
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif; /* Match the header font */
+}
+
+.admin-auth-box input:focus {
+  outline: none;
+  border-color: #2e7d32; /* Deep green focus border */
+  box-shadow: 0 0 5px rgba(46, 125, 50, 0.4); /* Soft green glow */
+}
+
+.admin-auth-box button {
+  padding: 12px;
+  background-color: #66bb6a; /* Fresh green for buttons */
+  color: white;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.admin-auth-box button:hover {
+  background-color: #43a047; /* Darker green on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.admin-auth-box .toggle-auth {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.admin-auth-box .toggle-auth a {
+  color: #2e7d32; /* Match the deep green */
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.admin-auth-box .toggle-auth a:hover {
+  text-decoration: underline;
+}
